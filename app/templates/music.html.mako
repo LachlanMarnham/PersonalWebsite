@@ -1,9 +1,3 @@
-<!DOCTYPE html>
+<%inherit file="base.html.mako" />
 
-<html>
-    <body>
-    <p>
-        These are some music projects
-    </p>
-    </body>
-</html>
+These are some music projects

@@ -1,10 +1,10 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, send_from_directory, url_for
 from flask_mako import MakoTemplates, render_template
 
 app = Flask(__name__)
 app.template_folder = 'templates'
 mako = MakoTemplates(app=app)
-
+app.config['CSS_FOLDER'] = 'css'
 
 @app.route('/')
 def index():
@@ -34,3 +34,9 @@ def partita():
 @app.route('/cv/')
 def cv():
     return render_template('cv.html.mako')
+
+
+@app.route('/css/<path:filename>')
+def download_file(filename):
+    return send_from_directory(app.config['CSS_FOLDER'],
+                               filename, as_attachment=True)

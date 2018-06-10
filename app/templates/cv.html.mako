@@ -1,9 +1,3 @@
-<!DOCTYPE html>
+<%inherit file="base.html.mako" />
 
-<html>
-    <body>
-    <p>
-        This is my full CV.
-    </p>
-    </body>
-</html>
+This is my full CV.

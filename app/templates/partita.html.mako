@@ -1,9 +1,3 @@
-<!DOCTYPE html>
+<%inherit file="base.html.mako" />
 
-<html>
-    <body>
-    <p>
-        This project is under construction
-    </p>
-    </body>
-</html>
+This project is under construction
