@@ -14,16 +14,19 @@
         ##change to container-fluid
             <div class="row">
                 <div class="col-sm-6 col-xs-12" id="projects">
-                    projects
+                    <img src="../images/code.png" />
                 </div>
                 <div class="col-sm-6 col-xs-12" id="music">
-                    music
+                    b
+                    ##<img src="../images/code.png" />
                 </div>
                 <div class="col-sm-6 col-xs-12" id="partita">
-                    partita
+                    c
+                    ##<img src="../images/code.png" />
                 </div>
                 <div class="col-sm-6 col-xs-12" id="cv">
-                    cv
+                    d
+                    ##<img src="../images/code.png" />
                 </div>
             </div>
 
