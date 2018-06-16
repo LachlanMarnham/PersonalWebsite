@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to top, #07034e, #0e669e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #001B2A;
+    width: 100%;
+    height: 15%;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header h1 {
+    font-family: 'Special Elite', cursive;
+    color: #b1b1b1;
+    padding: 0;
+    padding-left: 40px;
+    margin: 0;
+    font-size: 90px;
+    flex-basis: 50%;
+}
+
+.menu-item {
+    flex-basis: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_icon {
+    fill: #b1b1b1;
+    stroke: #b1b1b1;
+    transition: all ease 0.3s;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 75px;
+    height: 75px;
+}
+
+.home-icon:hover {
+    fill: red;
+}
+
+.projects-icon:hover {
+    fill: orange;
+}
+
+.music-icon:hover {
+    fill: yellow;
+}
+
+.partita-icon path:hover {
+    stroke: green;
+    fill: green;
+}
+
+.cv-icon:hover {
+    fill: lightblue;
+}
+
+#main-body {
+    margin: 0;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
