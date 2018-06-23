@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.template_folder = 'templates'
 mako = MakoTemplates(app=app)
 app.config['CSS_FOLDER'] = 'css'
+app.config['JS_FOLDER'] = 'js'
 app.config['IMAGES_FOLDER'] = 'images'
 
 @app.route('/')
@@ -40,6 +41,11 @@ def cv():
 @app.route('/css/<path:filename>')
 def serve_css(filename):
     return send_from_directory(app.config['CSS_FOLDER'], filename, as_attachment=True)
+
+
+@app.route('/js/<path:filename>')
+def serve_js(filename):
+    return send_from_directory(app.config['JS_FOLDER'], filename, as_attachment=True)
 
 
 @app.route('/images/<path:filename>')
