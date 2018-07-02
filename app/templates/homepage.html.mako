@@ -17,7 +17,12 @@
 
     <body>
         <div id="fullpage">
-                <div class="section">LANDING PAGE</div>
+                <div class="section fp-section active fp-completely" id="section0">
+                    <h1 style="color: white;">Lachlan Marnham:</h1>
+                    <h3 style="color: white;">Software engineer</h3>
+                    <h3 style="color: white;">Recovering theoretical physicist</h3>
+                    <h3 style="color: white;">Bedroom guitarist</h3>
+                </div>
                 <div class="section">
                     <div class="row">
                     <div class="col-sm-6 col-xs-12" id="projects">
@@ -40,6 +45,16 @@
                 </div>
         </div>
 
+        <script type="text/javascript">
+            var landingPage = document.getElementById('section0');
+            window.onresize = function(event) {
+                var windowWidth = $(window).width();
+                if (windowWidth < 1300) {
+                    landingPage.backgroundPosition = 20;
+                }
+
+            };
+        </script>
 
         <script type="text/javascript">
         $(document).ready(function() {

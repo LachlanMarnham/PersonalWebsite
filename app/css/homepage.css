@@ -15,6 +15,10 @@ div.row {
 
 }
 
+#section0 {
+    background-size: cover;
+    background-image: url(../images/homepage.jpg);
+}
 
 #projects { background: #DDD; padding: 0; overflow: hidden;}
 #music { background: #AAA; padding: 0;}
