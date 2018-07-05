@@ -15,12 +15,27 @@ div.row {
 
 }
 
+#preload-1 { background: url(../images/landing-down.jpg) no-repeat -9999px -9999px; }
+#preload-2 { background: url(../images/landing-left.jpg) no-repeat -9999px -9999px; }
+#preload-3 { background: url(../images/landing-up.jpg) no-repeat -9999px -9999px; }
+
 #section0 {
+    background-color: black;
+    background-image: url(../images/landing-down.jpg);
     background-size: cover;
-    background-image: url(../images/homepage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    transition: all 1s ease;
 }
 
-#projects { background: #DDD; padding: 0; overflow: hidden;}
+#projects {
+    background-image: url(../images/code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 #music { background: #AAA; padding: 0;}
 #partita { background: #777; padding: 0;}
 #cv { background: #444; padding: 0;}

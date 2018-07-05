@@ -16,28 +16,26 @@
     </head>
 
     <body>
+        <div id="preload-1"></div>
+        <div id="preload-2"></div>
+        <div id="preload-3"></div>
         <div id="fullpage">
-                <div class="section fp-section active fp-completely" id="section0">
-                    <h1 style="color: white;">Lachlan Marnham:</h1>
-                    <h3 style="color: white;">Software engineer</h3>
-                    <h3 style="color: white;">Recovering theoretical physicist</h3>
-                    <h3 style="color: white;">Bedroom guitarist</h3>
-                </div>
+                <div class="section fp-section active fp-completely" id="section0"></div>
                 <div class="section">
                     <div class="row">
-                    <div class="col-sm-6 col-xs-12" id="projects">
+                    <div class="fp-completely col-sm-6 col-xs-12" id="projects">
                         a
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="col-sm-6 col-xs-12" id="music">
+                    <div class="fp-completely col-sm-6 col-xs-12" id="music">
                         b
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="col-sm-6 col-xs-12" id="partita">
+                    <div class="fp-completely col-sm-6 col-xs-12" id="partita">
                         c
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="col-sm-6 col-xs-12" id="cv">
+                    <div class="fp-completely col-sm-6 col-xs-12" id="cv">
                         d
                         ##<img src="../images/code.png" />
                     </div>
@@ -46,19 +44,27 @@
         </div>
 
         <script type="text/javascript">
-            var landingPage = document.getElementById('section0');
-            window.onresize = function(event) {
-                var windowWidth = $(window).width();
-                if (windowWidth < 1300) {
-                    landingPage.backgroundPosition = 20;
-                }
+            function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve,ms))
+            }
 
-            };
+            async function changeBackground() {
+                var landingPage = $("#section0");
+
+                await sleep(3800);
+                landingPage.css("background-image", "url('../images/landing-left.jpg')");
+                await sleep(3800);
+                landingPage.css("background-image", "url('../images/landing-up.jpg')");
+                await sleep(3800);
+            }
+
+
         </script>
 
         <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage();
+            changeBackground();
         });
         </script>
     </body>
