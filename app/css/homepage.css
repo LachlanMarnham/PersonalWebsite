@@ -29,14 +29,26 @@ div.row {
     transition: all 1s ease;
 }
 
-#projects {
-    background-image: url(../images/code.png);
+.picture-tile {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
-#music { background: #AAA; padding: 0;}
-#partita { background: #777; padding: 0;}
-#cv { background: #444; padding: 0;}
+#projects {
+    background-image: url(../images/code.png);
+}
+
+#music {
+    background-image: url(../images/code.png);
+}
+
+#partita {
+    background-image: url(../images/code.png);
+}
+
+#cv {
+    background-image: url(../images/code.png);
+}
+
 img {object-fit: contain;}

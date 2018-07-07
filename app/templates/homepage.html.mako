@@ -23,19 +23,19 @@
                 <div class="section fp-section active fp-completely" id="section0"></div>
                 <div class="section">
                     <div class="row">
-                    <div class="fp-completely col-sm-6 col-xs-12" id="projects">
+                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile" id="projects">
                         a
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="fp-completely col-sm-6 col-xs-12" id="music">
+                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile" id="music">
                         b
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="fp-completely col-sm-6 col-xs-12" id="partita">
+                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile" id="partita">
                         c
                         ##<img src="../images/code.png" />
                     </div>
-                    <div class="fp-completely col-sm-6 col-xs-12" id="cv">
+                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile" id="cv">
                         d
                         ##<img src="../images/code.png" />
                     </div>
