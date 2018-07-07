@@ -48,7 +48,8 @@ div.row {
 }
 
 #cv {
-    background-image: url(../images/code.png);
+    background-image: url(../images/cv.jpg);
+    background-position: top;
 }
 
 img {object-fit: contain;}
