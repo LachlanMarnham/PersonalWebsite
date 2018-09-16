@@ -38,11 +38,11 @@
 
             async function changeBackground() {
                 var landingPage = $("#section0");
-
+                landingPage.css("background-image", "url('../images/landing-down-1920.jpg')");
                 await sleep(3800);
-                landingPage.css("background-image", "url('../images/landing-left.jpg')");
+                landingPage.css("background-image", "url('../images/landing-left-1920.jpg')");
                 await sleep(3800);
-                landingPage.css("background-image", "url('../images/landing-up.jpg')");
+                landingPage.css("background-image", "url('../images/landing-up-1920.jpg')");
                 await sleep(3800);
             }
 

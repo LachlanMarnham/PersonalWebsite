@@ -15,13 +15,13 @@ div.row {
 
 }
 
-#preload-1 { background: url(../images/landing-down.jpg) no-repeat -9999px -9999px; }
-#preload-2 { background: url(../images/landing-left.jpg) no-repeat -9999px -9999px; }
-#preload-3 { background: url(../images/landing-up.jpg) no-repeat -9999px -9999px; }
+#preload-1 { background: url(../images/landing-down-1920.jpg) no-repeat -9999px -9999px; }
+#preload-2 { background: url(../images/landing-left-1920.jpg) no-repeat -9999px -9999px; }
+#preload-3 { background: url(../images/landing-up-1920.jpg) no-repeat -9999px -9999px; }
 
 #section0 {
     background-color: black;
-    background-image: url(../images/landing-down.jpg);
+    background-image: url(../images/landing-down-1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
