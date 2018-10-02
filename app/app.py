@@ -8,6 +8,7 @@ app.config['CSS_FOLDER'] = 'css'
 app.config['JS_FOLDER'] = 'js'
 app.config['IMAGES_FOLDER'] = 'images'
 
+
 @app.route('/')
 def index():
     return redirect(url_for('home'))
