@@ -10,10 +10,10 @@
     ${parent.css_imports()}
 </%block>
 
-<header class="navbar navbar-expand-md navbar-dark bg-dark">
+<header class="navbar-dark flex-md-row">
 
-    <nav class="navbar navbar-expand-md navbar-dark flex-column flex-md-row bg-dark text-white">
-        <h2>This will be the navbar</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row bg-dark text-white">
+        <h3>This will be the navbar</h3>
     </nav>
 
 </header>
