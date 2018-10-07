@@ -1,4 +1,5 @@
 html, body {
+    font-size: xx-large;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -35,21 +36,39 @@ div.row {
     background-position: bottom;
 }
 
+.picture-tile:hover {
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
 #projects {
-    background-image: url(../images/code.png);
+    background-color: #816360ff;
 }
 
 #music {
-    background-image: url(../images/code.png);
+    background-color: #6b712eff;
 }
 
 #partita {
-    background-image: url(../images/code.png);
+    background-color: #6b0e17ff;
 }
 
 #cv {
-    background-image: url(../images/cv.jpg);
-    background-position: top;
+    background-color: #223c78ff;
+}
+
+.white-text {
+    color: #ffe7c3;
+    font-family: 'Corben', cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.clickable-div {
+    /* This left intentionally blank */
 }
 
 img {object-fit: contain;}
