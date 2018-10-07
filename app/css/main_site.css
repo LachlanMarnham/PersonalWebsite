@@ -6,10 +6,9 @@ html {
 }
 
 body {
-    background-color: #271B68!important;
+    /*background-color: #271B68!important;*/
     background-image: url("../images/main-background.png");
     background-attachment: fixed;
-    font-family: 'Anonymous Pro', monospace;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -22,28 +21,24 @@ header h3 {
     margin-top: 0.5%;
 }
 
-/*#header {*/
-    /*display: flex;*/
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*background-color: #001B2A;*/
-    /*width: 100%;*/
-    /*height: 15%;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*flex-direction: row;*/
-    /*align-items: center;*/
-/*}*/
-
-#header h1 {
-    font-family: 'Special Elite', cursive;
-    color: #b1b1b1;
-    padding: 0;
-    padding-left: 40px;
-    margin: 0;
-    font-size: 90px;
-    flex-basis: 50%;
+.content-body{
+    font-family: 'Source Sans Pro', monospace;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-top: 4rem;
 }
+
+/*#header h1 {*/
+    /*font-family: 'Special Elite', cursive;*/
+    /*color: #b1b1b1;*/
+    /*padding: 0;*/
+    /*padding-left: 40px;*/
+    /*margin: 0;*/
+    /*font-size: 90px;*/
+    /*flex-basis: 50%;*/
+/*}*/
 
 .menu-item {
     flex-basis: 10%;
@@ -51,52 +46,54 @@ header h3 {
     padding: 0;
 }
 
-.menu_icon {
-    fill: #b1b1b1;
-    stroke: #b1b1b1;
-    transition: all ease 0.3s;
-    display: block;
-    margin: 0;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 75px;
-    height: 75px;
-}
+/*.menu_icon {*/
+    /*fill: #b1b1b1;*/
+    /*stroke: #b1b1b1;*/
+    /*transition: all ease 0.3s;*/
+    /*display: block;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*min-height: 75px;*/
+    /*height: 75px;*/
+/*}*/
 
 .nav-extras {
-    background-color: #0000008a!important;
+    background-color: #050213!important;
     -webkit-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.59);
     -moz-box-shadow: 0px 8px 16px -3px rgba(0,0,0,0.59);
-    box-shadow: -2px 8px 16px -3px rgba(0,0,0,0.59);
-}
-
-.home-icon:hover {
-    fill: red;
-}
-
-.projects-icon:hover {
-    fill: orange;
-}
-
-.music-icon:hover {
-    fill: yellow;
-}
-
-.partita-icon path:hover {
-    stroke: green;
-    fill: green;
-}
-
-.cv-icon:hover {
-    fill: lightblue;
-}
-
-#main-body {
-    margin: 0;
-    margin-top: 10%;
-    height: 100%;
+    box-shadow: -2px 8px 16px -3px #050213;
+    position: fixed!important;
     width: 100%;
-    padding: 0;
 }
+
+/*.home-icon:hover {*/
+    /*fill: red;*/
+/*}*/
+
+/*.projects-icon:hover {*/
+    /*fill: orange;*/
+/*}*/
+
+/*.music-icon:hover {*/
+    /*fill: yellow;*/
+/*}*/
+
+/*.partita-icon path:hover {*/
+    /*stroke: green;*/
+    /*fill: green;*/
+/*}*/
+
+/*.cv-icon:hover {*/
+    /*fill: lightblue;*/
+/*}*/
+
+/*#main-body {*/
+    /*margin: 0;*/
+    /*margin-top: 10%;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding: 0;*/
+/*}*/
 
