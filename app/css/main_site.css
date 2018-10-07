@@ -20,13 +20,22 @@ header h3 {
     margin-top: 0.5%;
 }
 
+.container-centered {
+    margin-top: 4rem!important;
+    align-content: center;
+    max-width: 40rem!important;
+
+}
+
 .content-body{
-    font-family: 'Source Sans Pro', monospace;
+    font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 1.125rem;
     line-height: 1.5;
     font-weight: normal;
-    margin-top: 4rem;
+    margin: 0 auto;
+    justify-content: center;
+    display: inline;
 }
 
 .menu-item {

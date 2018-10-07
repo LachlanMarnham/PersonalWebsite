@@ -1,7 +1,7 @@
 <%inherit file="base.html.mako" />
 
 <%block name="font_imports">
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Corben" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Corben" rel="stylesheet">
     ${parent.font_imports()}
 </%block>
 
@@ -19,7 +19,7 @@
 </header>
 <br />
 
-<div class="container justify-content">
+<div class="container container-centered">
     <div class="content-body">
         ${next.body()}
     </div>
