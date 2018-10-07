@@ -1,4 +1,4 @@
-<%inherit file="base.html.mako" />
+<%inherit file="content_base.html.mako" />
 
 <p>Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the
 document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user
