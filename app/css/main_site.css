@@ -9,6 +9,7 @@ body {
     background-color: #271B68!important;
     background-image: url("../images/main-background.png");
     background-attachment: fixed;
+    font-family: 'Anonymous Pro', monospace;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -16,6 +17,7 @@ body {
 }
 
 header h3 {
+    font-family: 'Corben', cursive;
     margin-bottom: 0.5%;
     margin-top: 0.5%;
 }

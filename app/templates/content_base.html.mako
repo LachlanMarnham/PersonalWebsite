@@ -1,7 +1,7 @@
 <%inherit file="base.html.mako" />
 
 <%block name="font_imports">
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Corben" rel="stylesheet">
     ${parent.font_imports()}
 </%block>
 
