@@ -12,12 +12,12 @@
 
 <header class="navbar-dark flex-md-row">
 
-    <nav class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row text-white nav-extras">
         <h3>This will be the navbar</h3>
     </nav>
 
 </header>
-
+<br />
 ${next.body()}
 
 <footer>
