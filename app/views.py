@@ -1,7 +1,7 @@
 from flask import Flask, redirect, send_from_directory, url_for
 from flask_mako import MakoTemplates, render_template
 
-from helpers import NavContext
+from app.helpers import NavContext
 
 app = Flask(__name__)
 app.template_folder = 'templates'
