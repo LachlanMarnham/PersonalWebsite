@@ -1,3 +1,3 @@
 <%inherit file="content_base.html.mako" />
 
-These are some music projects
+<div class="jumbotron"><h1>Under construction...</h1></div>
