@@ -88,7 +88,7 @@
     </script>
 
     <script type="text/javascript">
-    $(document).ready(function() {
+    $(window).on("load", function() {
         $('#fullpage').fullpage();
         changeBackground();
     });
