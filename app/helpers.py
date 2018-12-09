@@ -50,3 +50,14 @@ class NavBarMenu:
             self.partita,
             self.cv
         )
+
+
+# The main menu has only a subset of the items that the nav bar has
+class MainMenu(NavBarMenu):
+    def items(self):
+        return (
+            self.music,
+            self.projects,
+            self.partita,
+            self.cv
+        )

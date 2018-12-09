@@ -22,6 +22,12 @@
     ${parent.css_imports()}
 </%block>
 
+<%!
+    from app.helpers import MainMenu
+    main_menu = MainMenu()
+%>
+
+
 <body>
     <div id="preload-1"></div>
     <div id="preload-2"></div>
@@ -30,30 +36,14 @@
             <div class="section fp-section active fp-completely" id="section0"></div>
             <div class="section">
                 <div class="row">
-                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile white-text clickable-div" id="projects">
+                    %for menu_item in main_menu.items():
+                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile white-text clickable-div" id="${menu_item.title.lower()}">
                         <div>
-                            <h1>Projects</h1>
-                            <a href="../projects"></a>
+                            <h1>${menu_item.title}</h1>
+                            <a href="${menu_item.url}"></a>
                         </div>
                     </div>
-                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile white-text clickable-div" id="music">
-                        <div>
-                            <h1>Music</h1>
-                            <a href="../music"></a>
-                        </div>
-                    </div>
-                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile white-text clickable-div" id="partita">
-                        <div>
-                            <h1>Partita</h1>
-                            <a href="../partita"></a>
-                        </div>
-                    </div>
-                    <div class="fp-completely col-sm-6 col-xs-12 picture-tile white-text clickable-div" id="cv">
-                        <div>
-                            <h1>CV</h1>
-                            <a href="../cv"></a>
-                        </div>
-                    </div>
+                    %endfor
                 </div>
             </div>
     </div>
