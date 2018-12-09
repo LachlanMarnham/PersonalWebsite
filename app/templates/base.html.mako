@@ -29,14 +29,6 @@
     </head>
 
     <body>
-
-##         <div style="width: 100%; height:90%;padding: 0; margin: 0; ">
-##             <div id="sidebar" style="background-color: darkblue; width: 200px; height: 90%; padding: 0; margin: 0; ">
-##                 <nav>
-##                     ${make_menu(PAGES)}
-##                 </nav>
-##             </div>
-
          ${next.body()}
     </body>
 
