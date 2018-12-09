@@ -22,7 +22,7 @@ div.row {
 
 #section0 {
     background-color: black;
-    background-image: url(../images/landing-down-1920.jpg);
+    background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
