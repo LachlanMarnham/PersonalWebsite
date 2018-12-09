@@ -71,6 +71,19 @@
             await sleep(3800);
             landingPage.css("background-image", "url('../images/landing-up-1920.jpg')");
             await sleep(3800);
+            landingPage.css("background-image", "none");
+            landingPage.css("color", "whitesmoke");
+            landingPage.css("font-family", "'Corben', cursive");
+            var welcomeText = landingPage.html("<div><h1>Lachlan Marnham</h1></div>");
+            await sleep(1000);
+            welcomeText.append('<ul id="qualities"></ul>');
+            await sleep(1000);
+            var qualitiesList = $("#qualities");
+            qualitiesList.append("<li>Software Engineer</li>");
+            await sleep(1000);
+            qualitiesList.append("<li>Recovering Theoretical Physicist</li>");
+            await sleep(1000);
+            qualitiesList.append("<li>Bedroom Classical Guitarist</li>");
         }
     </script>
 
