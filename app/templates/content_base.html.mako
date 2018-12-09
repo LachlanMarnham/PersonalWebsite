@@ -30,10 +30,6 @@
     </div>
 </div>
 
-<footer>
-    <%include file="footer.html.mako" />
-</footer>
-
 <%def name="make_nav_bar_menu()">
     %for menu_item in nav_bar_menu.items():
         <%
