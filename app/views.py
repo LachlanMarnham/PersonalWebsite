@@ -1,3 +1,5 @@
+import http
+
 from flask import Flask, redirect, send_from_directory, url_for
 from flask_mako import MakoTemplates, render_template
 
@@ -54,3 +56,14 @@ def serve_js(filename):
 @app.route('/images/<path:filename>')
 def serve_images(filename):
     return send_from_directory(app.config['IMAGES_FOLDER'], filename, as_attachment=True)
+
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('error_handler.html.mako', error_code=404, error_message='Page Not Found.'), 404
+
+
+# Catch everything else that isn't explicitly accounted for, and interpret as internal server error
+@app.errorhandler(Exception)
+def catch_all_error(error):
+    return render_template('error_handler.html.mako', error_code=500, error_message='Internal Server Error'), 500
