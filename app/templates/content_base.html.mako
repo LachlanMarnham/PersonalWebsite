@@ -10,10 +10,15 @@
     ${parent.css_imports()}
 </%block>
 
+<%!
+    from app.helpers import NavBarMenu
+    nav_bar_menu = NavBarMenu()
+%>
+
 <header class="navbar-dark flex-md-row">
 
     <nav class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row navbar-fixed-top text-white nav-extras">
-        <h3>This will be the navbar</h3>
+        ${make_nav_bar_menu()}
     </nav>
 
 </header>
@@ -28,3 +33,14 @@
 <footer>
     <%include file="footer.html.mako" />
 </footer>
+
+<%def name="make_nav_bar_menu()">
+    %for menu_item in nav_bar_menu.items():
+        <%
+            menu_item_class = 'nav-menu-item col-sm-1 '
+            if menu_item.context == current_page_context:
+                menu_item_class += 'nav-menu-item-selected'
+        %>
+        <h3><a class="${menu_item_class}" href="${menu_item.url}">${menu_item.title}</a></h3>
+    %endfor
+</%def>

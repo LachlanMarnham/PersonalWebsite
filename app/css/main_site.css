@@ -13,17 +13,26 @@ body {
     margin: 0;
 }
 
-header h3 {
+.nav-menu-item {
     font-family: 'Corben', cursive;
     margin-bottom: 0.5%;
     margin-top: 0.5%;
+    color: whitesmoke;
+}
+
+.nav-menu-item:hover {
+    color: #CC9752;
+    text-decoration: none;
+}
+
+.nav-menu-item-selected {
+    color: #CCCC00;
 }
 
 .container-centered {
     margin-top: 4rem!important;
     align-content: center;
     max-width: 40rem!important;
-
 }
 
 .content-body{

@@ -1,6 +1,8 @@
 from flask import Flask, redirect, send_from_directory, url_for
 from flask_mako import MakoTemplates, render_template
 
+from helpers import NavContext
+
 app = Flask(__name__)
 app.template_folder = 'templates'
 mako = MakoTemplates(app=app)
@@ -21,22 +23,22 @@ def home():
 
 @app.route('/projects/')
 def projects():
-    return render_template('projects.html.mako')
+    return render_template('projects.html.mako', current_page_context=NavContext.projects)
 
 
 @app.route('/music/')
 def music():
-    return render_template('music.html.mako')
+    return render_template('music.html.mako', current_page_context=NavContext.music)
 
 
 @app.route('/partita/')
 def partita():
-    return render_template('partita.html.mako')
+    return render_template('partita.html.mako', current_page_context=NavContext.partita)
 
 
 @app.route('/cv/')
 def cv():
-    return render_template('cv.html.mako')
+    return render_template('cv.html.mako', current_page_context=NavContext.cv)
 
 
 @app.route('/css/<path:filename>')
