@@ -37,6 +37,7 @@
     <div id="preload-2"></div>
     <div id="preload-3"></div>
     <div id="fullpage">
+            <div id="overlay"></div>
             <div class="section fp-section active fp-completely" id="section0"></div>
             <div class="section">
                 <div class="row">
@@ -62,28 +63,29 @@
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve,ms))
         }
-
+        ## TODO clean up this ugliness...
         async function changeBackground() {
             var landingPage = $("#section0");
             landingPage.css("background-image", "url('../images/landing-down-1920.jpg')");
-            await sleep(3800);
+            await sleep(2000);
             landingPage.css("background-image", "url('../images/landing-left-1920.jpg')");
-            await sleep(3800);
+            await sleep(2100);
             landingPage.css("background-image", "url('../images/landing-up-1920.jpg')");
-            await sleep(3800);
+            await sleep(2100);
+            var overLay = $('#overlay');
+            await overLay.animate({
+                   opacity: 1
+                 }, 2000, function() {
+                    // Animation complete.
+                 });
+            await sleep(2000);
             landingPage.css("background-image", "none");
-            landingPage.css("color", "whitesmoke");
-            landingPage.css("font-family", "'Corben', cursive");
-            var welcomeText = landingPage.html("<div><h1>Lachlan Marnham</h1></div>");
-            await sleep(1000);
-            welcomeText.append('<ul id="qualities"></ul>');
-            await sleep(1000);
-            var qualitiesList = $("#qualities");
-            qualitiesList.append("<li>Software Engineer</li>");
-            await sleep(1000);
-            qualitiesList.append("<li>Recovering Theoretical Physicist</li>");
-            await sleep(1000);
-            qualitiesList.append("<li>Bedroom Classical Guitarist</li>");
+            overLay.css("color", "whitesmoke");
+            overLay.css("font-family", "'Corben', cursive");
+            overLay.html('<div class="container-centered" id="welcome-text"><h4>Lachlan Marnham</h4></div>');
+            var welcomeText = $('#welcome-text');
+            welcomeText.append('<h6>Software Engineer</h6>');
+            welcomeText.append('<div class="arrow"></div>');
         }
     </script>
 
