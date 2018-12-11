@@ -43,6 +43,7 @@ def cv():
     return render_template('cv.html.mako', current_page_context=NavContext.cv)
 
 
+# TODO Apache should handle all of these
 @app.route('/css/<path:filename>')
 def serve_css(filename):
     return send_from_directory(app.config['CSS_FOLDER'], filename, as_attachment=True)
@@ -56,6 +57,11 @@ def serve_js(filename):
 @app.route('/images/<path:filename>')
 def serve_images(filename):
     return send_from_directory(app.config['IMAGES_FOLDER'], filename, as_attachment=True)
+
+
+@app.route('/favicon-32x32.png')
+def return_favicon():
+    return send_from_directory(app.root_path, 'favicon-32x32.png')
 
 
 @app.errorhandler(404)
