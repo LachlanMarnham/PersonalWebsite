@@ -43,6 +43,17 @@ def cv():
     return render_template('cv.html.mako', current_page_context=NavContext.cv)
 
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('error_handler.html.mako', error_code=404, error_message='Page Not Found.'), 404
+
+
+# Catch everything else that isn't explicitly accounted for, and interpret as internal server error
+@app.errorhandler(Exception)
+def catch_all_error(error):
+    return render_template('error_handler.html.mako', error_code=500, error_message='Internal Server Error'), 500
+
+
 # TODO Apache should handle all of these
 @app.route('/css/<path:filename>')
 def serve_css(filename):
@@ -62,14 +73,3 @@ def serve_images(filename):
 @app.route('/favicon-32x32.png')
 def return_favicon():
     return send_from_directory(app.root_path, 'favicon-32x32.png')
-
-
-@app.errorhandler(404)
-def page_not_found(error):
-    return render_template('error_handler.html.mako', error_code=404, error_message='Page Not Found.'), 404
-
-
-# Catch everything else that isn't explicitly accounted for, and interpret as internal server error
-@app.errorhandler(Exception)
-def catch_all_error(error):
-    return render_template('error_handler.html.mako', error_code=500, error_message='Internal Server Error'), 500
