@@ -64,7 +64,7 @@
 </div>
 
 <script type="text/javascript">
-    $(window).on("load", function() {
+    $(document).ready(function() {
         show_nav_items('${link_container_class_open}');
     });
 </script>
