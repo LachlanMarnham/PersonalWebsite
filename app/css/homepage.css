@@ -27,6 +27,10 @@ div.row {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    -moz-transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
     transition: all 1.5s ease;
 }
 
