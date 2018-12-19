@@ -17,7 +17,7 @@ function myFunction(nav_id, nav_class_default, link_container_class_open, link_c
 }
 
 function show_nav_items (link_container_default_class) {
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 991) {
     var link_containers = document.getElementsByClassName('link-container');
     for (var i=0; i<link_containers.length; i++) {
       link_containers[i].className = link_container_default_class;

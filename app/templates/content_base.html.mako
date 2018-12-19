@@ -29,12 +29,12 @@
     nav_bar_menu = NavBarMenu()
     nav_bar_default_class = "navbar navbar-dark navbar-fixed-top text-white nav-extras"
     nav_bar_id = 'myTopNav'
-    link_container_class_open = 'col-sm-1 col-xs-12 link-container'
-    link_container_class_closed = 'col-sm-1 col-xs-12 link-container link-container-hidden'
+    link_container_class_open = 'col-lg-1 col-md-12 col-sm-12 col-xs-12 link-container'
+    link_container_class_closed = 'col-lg-1 col-md-12 col-sm-12 col-xs-12 link-container link-container-hidden'
 %>
 
 <div class="${nav_bar_default_class}" id="myTopNav">
-    <div class="col-sm-1 col-xs-12">
+    <div class="col-xs-12">
         <a class="nav-menu-item" href="javascript:void(0);" id="icon" onclick="myFunction('${nav_bar_id}', '${nav_bar_default_class}', '${link_container_class_open}', '${link_container_class_closed}')">
             <i class="fa fa-bars"></i>
         </a>

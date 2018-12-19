@@ -61,7 +61,7 @@ body {
 }
 
 /* Hide nav bar links when the screen is less than 600px wide */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #myTopNav a {
       display: none;
   }
@@ -75,7 +75,7 @@ body {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
    This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #myTopNav.responsive {position: relative;}
   #myTopNav.responsive #icon {
     right: 0;
