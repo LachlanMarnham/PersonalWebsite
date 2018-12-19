@@ -68,6 +68,8 @@ body {
   #myTopNav a#icon {
     float: right;
     display: block;
+    right: 0;
+    top: 0;
   }
 }
 
@@ -76,7 +78,6 @@ body {
 @media screen and (max-width: 768px) {
   #myTopNav.responsive {position: relative;}
   #myTopNav.responsive #icon {
-    position: absolute;
     right: 0;
     top: 0;
   }
