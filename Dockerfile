@@ -5,19 +5,17 @@ FROM docker.io/fedora
 
 MAINTAINER Lachlan Marnham "lachlan.marnham@gmail.com"
 
-RUN apt-get update && apt-get install -y apache2 \
-    libapache2-mod-wsgi \
-    build-essential \
-    python \
-    python-dev\
-    python-pip \
- && apt-get clean \
- && apt-get autoremove \
- && rm -rf /var/lib/apt/lists/*
+RUN dnf -y update \
+ && dnf install -y httpd \
+    python3-pip\
+  #  libapache2-mod-wsgi \
+  #  build-essential \
+ && dnf clean all \
+ && dnf autoremove
 
 # Copy over and install the requirements
-COPY ./requirements.txt /var/www/apache-flask/app/requirements.txt
-RUN pip install -r /var/www/apache-flask/app/requirements.txt
+COPY ./requirements.txt /var/httpd/requirements.txt
+RUN pip3 install -r /var/httpd/requirements.txt
 
 # Copy over the apache configuration file and enable the site
 COPY ./apache-flask.conf /etc/apache2/sites-available/apache-flask.conf
@@ -42,4 +40,4 @@ CMD  /usr/sbin/apache2ctl -D FOREGROUND
 # The commands below get apache running but there are issues accessing it online
 # The port is only available if you go to another port first
 # ENTRYPOINT ["/sbin/init"]
-# CMD ["/usr/sbin/apache2ctl"]
+# CMD ["/usr/sbin/apache2ctl"i]
