@@ -2,7 +2,7 @@
 
 ...it's probably of no interest to you, but GitHub is more convenient than DropBox.
 
-Build the image (image_name == beta | production)
+Build the image, image_name == personal-website-(beta|production)
 ```shell
 $ docker build -t <image_name> <PATH>
 ```
