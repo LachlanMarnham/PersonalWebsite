@@ -1,14 +1,9 @@
 import logging
 
-from flask import Flask, Blueprint
+from flask import Flask
 from flask_mako import MakoTemplates
 
-
-#TODO re-write the views.py to use something like this
-web_server_blueprint = Blueprint('web_server', 'web_server')
-@web_server_blueprint.route('/')
-def hello():
-    return 'hi'
+from app.views import web_app_blueprint
 
 
 def app_factory() -> Flask:
@@ -20,8 +15,13 @@ def app_factory() -> Flask:
 
     app = Flask(__name__)
 
+    app.template_folder = 'templates'
+    app.config['CSS_FOLDER'] = 'css'
+    app.config['JS_FOLDER'] = 'js'
+    app.config['IMAGES_FOLDER'] = 'images'
+
     # Register main blueprint
-    app.register_blueprint(web_server_blueprint)
+    app.register_blueprint(web_app_blueprint)
 
     MakoTemplates(app)
     app.config['MAKO_TRANSLATE_EXCEPTIONS'] = False
