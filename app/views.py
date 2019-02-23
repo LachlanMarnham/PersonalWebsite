@@ -9,7 +9,7 @@ web_app_blueprint = Blueprint('app', 'web_app')
 
 @web_app_blueprint.route('/')
 def index():
-    return redirect(url_for('home'))
+    return redirect(url_for('app.home'))
 
 
 @web_app_blueprint.route('/home/')
