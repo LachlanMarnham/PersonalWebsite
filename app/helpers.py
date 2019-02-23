@@ -18,27 +18,27 @@ class NavBarMenu:
     def __init__(self):
         self.home = MenuItem(
             title='Home',
-            url=url_for('home'),
+            url=url_for('app.home'),
             context=NavContext.home,
         )
         self.music = MenuItem(
             title='Music',
-            url=url_for('music'),
+            url=url_for('app.music'),
             context=NavContext.music,
         )
         self.projects = MenuItem(
             title='Projects',
-            url=url_for('projects'),
+            url=url_for('app.projects'),
             context=NavContext.projects,
         )
         self.partita = MenuItem(
             title='Partita',
-            url=url_for('partita'),
+            url=url_for('app.partita'),
             context=NavContext.partita,
         )
         self.cv = MenuItem(
             title='CV',
-            url=url_for('cv'),
+            url=url_for('app.cv'),
             context=NavContext.cv,
         )
 
