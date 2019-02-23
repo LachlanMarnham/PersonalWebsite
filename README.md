@@ -36,3 +36,14 @@ Kill a running container
 ```shell
 $ docker kill <container_id>
 ```
+
+Once there is a working beta image to deploy, build it as personal_website_production.
+Find the image ID of the production image (<piid>) a tag it
+```shell
+$ docker tag <piid> lachlanmarnham/personal_website_production:latest
+```
+
+On the server, run the container in detached mode
+```shell
+docker run -d --restart=always -p 80:80 -p 443:443 lachlanmarnham/personal_website_production:latest
+```
