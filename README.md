@@ -1,3 +1,17 @@
+## TODO
+* Add content:
+    - CV
+    - Music
+    - Projects
+    - Partita
+* Set up SSL
+* Add https VirtualHost and permanent redirect *:80 -> *:443
+* Make Apache serve static files
+* Fix homepage animations for non-chrome browsers
+* Implement a front end toolchain for ugly-fying the JavaScript and so on
+
+## Docker workflow
+
 Build the image, image_name == personal_website_(beta|production)
 ```shell
 $ docker build -t <image_name> <PATH>
