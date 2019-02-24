@@ -5,19 +5,6 @@
     music_videos = MusicVideos()
 %>
 
-## %for video_url in music_videos.urls:
-##     <div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
-##         <iframe style="position:absolute; left:0; top:0; width:100%; height:100%"
-##             src="${video_url}"
-##             frameborder="${music_videos.frame_border}"
-##             allow="${music_videos.allowed_options}"
-##             wmode="Opaque"
-##             allowfullscreen>
-##         </iframe>
-##     </div>
-##     <br />
-## %endfor
-
 %for video_url in music_videos.urls:
     <iframe
             class="youtube-video"
@@ -49,21 +36,17 @@
 
         // This assumes all the videos have the same width
         var video_height = calculateVideoHeight(videos[0]);
-
-        for (var i in videos.length) {
+        for (var i=0; i < videos.length; i++) {
             var video = videos[i];
             video.height = video_height;
         }
     }
 
-    $(document).on("load", function () {
+    $(document).on("DOMContentLoaded", function () {
         setVideoHeights('youtube-video');
     });
 
-    
-    ##  $(window).on("resize", function () {
-    ##      setVideoHeights('youtube-video');
-    ##  });
-
-    window.addEventListener('resize', setVideoHeights);
+    $(window).on("resize", function () {
+        setVideoHeights('youtube-video');
+    });
 </script>
