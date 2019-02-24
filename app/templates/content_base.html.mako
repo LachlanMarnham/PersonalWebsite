@@ -22,6 +22,8 @@
             integrity="sha384-fJU6sGmyn07b+uD1nMk7/iSb4yvaowcueiQhfVgQuD98rfva8mcr1eSvjchfpMrH"
             crossorigin="anonymous">
     </script>
+
+    ${parent.javascript_imports()}
 </%block>
 
 <%!
@@ -33,7 +35,7 @@
     link_container_class_closed = 'col-lg-1 col-md-12 col-sm-12 col-xs-12 link-container link-container-hidden'
 %>
 
-<div class="${nav_bar_default_class}" id="myTopNav">
+<div class="${nav_bar_default_class}" style="z-index: 100" id="myTopNav">
     <div class="col-xs-12">
         <a class="nav-menu-item" href="javascript:void(0);" id="icon" onclick="myFunction('${nav_bar_id}', '${nav_bar_default_class}', '${link_container_class_open}', '${link_container_class_closed}')">
             <i class="fa fa-bars"></i>
