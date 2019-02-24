@@ -15,6 +15,7 @@ def app_factory() -> Flask:
     app.config['CSS_FOLDER'] = 'css'
     app.config['JS_FOLDER'] = 'js'
     app.config['IMAGES_FOLDER'] = 'images'
+    app.config['FILES_FOLDER'] = 'files'
 
     # Register main blueprint
     app.register_blueprint(web_app_blueprint)

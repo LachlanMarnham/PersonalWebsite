@@ -64,6 +64,11 @@ def serve_images(filename):
     return send_from_directory(current_app.config['IMAGES_FOLDER'], filename, as_attachment=True)
 
 
+@web_app_blueprint.route('/cv/files/<path:filename>')
+def serve_cv(filename):
+    return send_from_directory(current_app.config['FILES_FOLDER'], filename, as_attachment=True)
+
+
 @web_app_blueprint.route('/favicon-32x32.png')
 def return_favicon():
     return send_from_directory(current_app.root_path, 'favicon-32x32.png')
