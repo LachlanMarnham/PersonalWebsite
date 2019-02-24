@@ -1,5 +1,3 @@
-import logging
-
 from flask import Flask
 from flask_mako import MakoTemplates
 
@@ -10,8 +8,6 @@ def app_factory() -> Flask:
     """
     Initialise the app. To be called by wsgi.
     """
-
-    logger = logging.getLogger('website')
 
     app = Flask(__name__)
 
@@ -24,6 +20,6 @@ def app_factory() -> Flask:
     app.register_blueprint(web_app_blueprint)
 
     MakoTemplates(app)
-    app.config['MAKO_TRANSLATE_EXCEPTIONS'] = False
+    app.config['MAKO_TRANSLATE_EXCEPTIONS'] = True
 
     return app

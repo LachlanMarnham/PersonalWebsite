@@ -6,7 +6,6 @@ from app.helpers import NavContext
 
 web_app_blueprint = Blueprint('app', 'web_app')
 
-
 @web_app_blueprint.route('/')
 def index():
     return redirect(url_for('app.home'))
@@ -24,6 +23,7 @@ def projects():
 
 @web_app_blueprint.route('/music/')
 def music():
+    current_app.logger.debug('!!!!!!!!!!!!!!!!!!!1')
     return render_template('music.html.mako', current_page_context=NavContext.music)
 
 
