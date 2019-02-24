@@ -12,9 +12,9 @@
 
 ## Docker workflow
 
-Build the image, image_name == personal_website_(beta|production)
+Build the image
 ```shell
-$ docker build -t <image_name> <PATH>
+$ docker build -t personal_website_beta <path>
 ```
 
 Run the container
@@ -30,6 +30,11 @@ $ docker ps
 Open a shell into the container
 ```shell
 $ docker exec -it <container_id> /bin/bash
+```
+
+Run a container, capture its image ID, and use that to open a bash shell
+```shell
+docker exec -it $(docker run -v ~/Documents/PersonalWebsite/app:/usr/local/app -d -p 80:80 -p 443:443 personal_website_beta) /bin/bash
 ```
 
 Kill a running container
