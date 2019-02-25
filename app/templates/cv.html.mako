@@ -70,15 +70,126 @@ For a version that conforms to the two-page industry standard, click <a href="${
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-parent">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <h4>Academic Qualifications . . .</h4>
+        <br />
+          <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>University of Exeter</strong><br />
+                      <i>PhD Theoretical Physics</i><br />
+                      Graduated December 2016
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>Exeter, UK</strong><br />
+                      <i>2012-2016</i>
+                  </td>
+              </tr>
+          </table>
+
+          <br />
+
+          <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>University of Wollongong</strong><br />
+                      <i>Honours Year (Masters), Physics, 1st Class Honours, Distinction</i><br />
+                      Dissertation grade: 96% – Overall Masters Grade: 93%
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>Wollongong, Australia</strong><br />
+                      <i>2011–2012</i>
+                  </td>
+              </tr>
+          </table>
+
+          <br />
+
+          <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>University of Wollongong</strong><br />
+                      <i>BSc Advanced (Physics), 1st Class Honours, Distinction</i><br />
+                      Degree Average: 87%
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>Wollongong, Australia</strong><br />
+                      <i>2008-2012</i>
+                  </td>
+              </tr>
+          </table>
+
+          <br />
+
+          <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>Holy Spirit College Bellambi</strong><br />
+                      <i>Higher School Certificate</i><br />
+                      University Admission Index: 92
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>Wollongong, Australia</strong><br />
+                      <i>2004-2007</i>
+                  </td>
+              </tr>
+          </table>
+         <br />
+
+        <h4>Major Research Projects . . .</h4>
+          <ul>
+              <li>
+                  <strong>Doctoral Project: </strong><i>‘Bi-electron bound states in single- and double-layer graphene
+                  nanostructures’</i>
+                  <ul>
+                      <li>
+                          Computational work performed mostly in Python (some Mathematica) with NumPy and SciPy, with
+                          all coding and algorithm design developed from scratch.
+                      </li>
+
+                      <li>
+                          Development and application of novel low-dimensional quantum condensed-matter field theories
+                          to the study of mesoscopic systems.
+                      </li>
+
+                      <li>
+                          Lead to the proposal of a new kind of (quasi)particle in graphene.
+                      </li>
+                  </ul>
+              </li>
+
+              <li>
+                  <strong>Masters Project: </strong><i>‘Energy relaxation rate of an external electron due to plasma
+                  oscillations in a 2DEG with Rashba spin–orbital coupling’</i>, Dissertation grade: 96% – Overall
+                  Masters Grade: 93%
+                  <ul>
+                      <li>
+                          All code developed from scratch in C++
+                      </li>
+
+                      <li>
+                          This work studied electron transport normal to semiconductor heterojunctions with Rashba
+                          spin-orbit coupling
+                      </li>
+
+                      <li>
+                          Applications in the area of energy loss in spintronic nanostructures
+                      </li>
+                  </ul>
+              </li>
+
+          </ul>
+        <h4>List of Publications . . .</h4>
+        <ul>
+            <li>
+                <strong>Metastable electron–electron states in double–layer graphene structures</strong>
+                <a href="https://arxiv.org/abs/1410.0864" target="_blank">arXiv:1410.0864v2 [cond-mat.mes-hall]</a>
+            </li>
+
+            <li>
+                <strong>Bielectrons in the Dirac sea in graphene: the role of many–body effects</strong>
+                <a href="http://arxiv.org/abs/1512.02953" target="_blank">arXiv:1512.02953 [cond-mat.mes-hall]</a>
+            </li>
+        </ul>
       </div>
     </div>
   </div>
