@@ -46,15 +46,102 @@ For a version that conforms to the two-page industry standard, click <a href="${
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-parent">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>StarLeaf</strong><br />
+                      <i>Software Engineer</i>
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>London, UK</strong><br />
+                      <i>April 2017-present</i>
+                  </td>
+              </tr>
+          </table>
+          <ul>
+              <li>
+                  <strong>Backend Engineering of a Cloud Videoconferencing Platform</strong>
+              </li>
+
+              <li>
+                  <strong>Skills Developed: </strong>Python, SQL, JavaScript, HTML, CSS, RESTful API design, distributed
+                  systems engineering, service architecture design, unit and system testing, development of a
+                  multi–versioned cloud infrastructure, continuous integration, software planning and specification,
+                  test plan writing and working with large and complex code bases.
+              </li>
+
+              <li>
+                  <strong>Achievements: </strong>
+                  <ul>
+                      <li>
+                          Designed and built a bespoke infrastructure system–testing platform. This involved the remote
+                          control of virtual StarLeaf video conferencing and instant messaging clients to probe a cloud
+                          with dozens of constituent server species.
+                      </li>
+
+                      <li>
+                          Implemented a distributed, co–located database and database–control infrastructure for the
+                          storage and pipelining of customer product–usage data. This system was written in such a way
+                          so as to allow for customer data to be stored in a jurisdiction of their choice, while enabling
+                          the data to be accessed transiently by credentialed team members. I also worked on a suit of
+                          internal tools for the categorization and display of this information.
+                      </li>
+
+                      <li>
+                          Developed a platform which serves dashboards to customers, allowing them to view product–usage
+                          statistics in real time.
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+
+          <table style="width: 100%">
+              <tr>
+                  <td>
+                      <strong>University of Exeter</strong><br />
+                      <i>Doctoral Researcher</i>
+                  </td>
+                  <td style="text-align: right;">
+                      <strong>Exeter, UK</strong><br />
+                      <i>April 2012-December 2016</i>
+                  </td>
+              </tr>
+          </table>
+
+          <ul>
+              <li>
+                  <strong>Low-dimensional Condensed Matter Field Theory and Applications</strong>
+              </li>
+
+              <li>
+                  <strong>Skills Developed: </strong>Python, Mathematica, computational mathematics, pair programming,
+                  code review, version control, complex analysis, field theory, graph theory, group theory, multivariate
+                  calculus, linear algebra, topology and academic communication (conference speaking, publication in
+                  journals, teaching, writing textbook reviews and so on).
+              </li>
+
+              <li>
+                  <strong>Achievements: </strong>
+                  <ul>
+                      <li>
+                          Developed a mathematical and conceptual framework for the formation of particles composed of
+                          electron pairs in certain low–dimensional systems.
+                      </li>
+
+                      <li>
+                          Published in peer–reviewed journals.
+                      </li>
+
+                      <li>
+                          Taught a variety of problems classes and tutorials in physics and mathematics.
+                      </li>
+
+                      <li>
+                          Won two research prizes, and was twice nominated for a graduate teaching prize.
+                      </li>
+                  </ul>
+              </li>
+          </ul>
       </div>
     </div>
   </div>
