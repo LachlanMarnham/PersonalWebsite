@@ -1,7 +1,5 @@
 ## TODO
 * Add content:
-    - CV
-    - Music
     - Projects
     - Partita
 * Set up SSL
