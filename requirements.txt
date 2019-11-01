@@ -9,6 +9,6 @@ Jinja2>=2.10.1
 Mako==1.0.7
 MarkupSafe==1.0
 PyYAML==4.2b1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 requests>=2.20.0
 urllib3==1.24.2
